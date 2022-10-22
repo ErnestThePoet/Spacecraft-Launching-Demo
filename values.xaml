@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="strLaunchBelowV1">V&lt;V1,卫星将落回地球</sys:String>
+    <sys:String x:Key="strLaunchV1">V=V1,卫星将绕地球做匀速圆周运动</sys:String>
+    <sys:String x:Key="strLaunchV1toV2">V1&lt;V&lt;V2,卫星将沿椭圆轨道绕地球运动</sys:String>
+    <sys:String x:Key="strLaunchV2toV3">V2≤V&lt;V3,卫星将脱离地球引力</sys:String>
+    <sys:String x:Key="strLaunchAboveV3">V3≤V,卫星将脱离太阳系</sys:String>
+
+    <sys:String x:Key="strOneTrackChange1">①以大于V1的速度发射，卫星进入椭圆轨道</sys:String>
+    <sys:String x:Key="strOneTrackChange2">②在远日点进行一次点火加速，进入圆形轨道</sys:String>
+
+    <sys:String x:Key="strTwoTrackChange1">①以V1发射，先绕地球以圆轨道运动</sys:String>
+    <sys:String x:Key="strTwoTrackChange2">②进行第一次点火加速，卫星进入椭圆轨道</sys:String>
+    <sys:String x:Key="strTwoTrackChange3">③在远日点第二次点火加速，进入大圆形轨道</sys:String>
+
+    <sys:String x:Key="strSyncSim1">①以V1发射，先绕地球以圆轨道运动</sys:String>
+    <sys:String x:Key="strSyncSim2">②进行第一次点火加速，卫星进入椭圆轨道</sys:String>
+    <sys:String x:Key="strSyncSim3">③在远日点第二次点火加速，进入大圆形轨道</sys:String>
+
+    <sys:String x:Key="strCE1Sim1">①以大于V1的速度发射，探月卫星进入椭圆轨道</sys:String>
+    <sys:String x:Key="strCE1Sim2">②近地点进行一次加速，进入更大的椭圆轨道</sys:String>
+    <sys:String x:Key="strCE1Sim3">③近地点再次加速，探月卫星进入地月转移轨道</sys:String>
+    <sys:String x:Key="strCE1Sim4">④近月点进行一次减速，进入环月轨道</sys:String>
+    <sys:String x:Key="strCE1Sim5">⑤近月点再次减速，环月轨道长轴变短</sys:String>
+    <sys:String x:Key="strCE1Sim6">⑥探月卫星开始绕转探测</sys:String>
+
+    <sys:String x:Key="strCE5Sim1">①以大于V1的速度发射，直接进入地月转移轨道</sys:String>
+    <sys:String x:Key="strCE5Sim2">②近月点进行一次减速，探测器进入环月轨道</sys:String>
+    <sys:String x:Key="strCE5Sim3">③近月点再次减速，环月轨道长轴变短</sys:String>
+    <sys:String x:Key="strCE5Sim4">④探测器再次减速，进入圆形轨道准备落月</sys:String>
+
+</ResourceDictionary>
